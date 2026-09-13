@@ -60,15 +60,20 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform 0.2s cubic-bezier(0.2, 0, 0, 1), border-color 0.3s ease, box-shadow 0.3s ease;
+  transition: transform 400ms var(--ease-out-expo), border-color 400ms ease, box-shadow 400ms ease;
   transform-style: preserve-3d;
   position: relative;
   overflow: hidden;
 }
 
 .project-card:hover .project-card-inner {
-  border-color: rgba(0, 240, 255, 0.35);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.6), 0 0 30px rgba(0, 240, 255, 0.12);
+  transform: translateY(-5px);
+  border-color: var(--border-neon-cyan);
+  box-shadow: var(--shadow-lg), var(--shadow-neon-cyan);
+}
+
+.project-card:hover .project-title {
+  color: var(--accent-cyan);
 }
 
 /* Card Header */
@@ -102,6 +107,7 @@
   font-weight: 700;
   color: var(--text-primary);
   margin-bottom: var(--space-2);
+  transition: color 300ms ease;
 }
 
 .project-tagline {
@@ -165,6 +171,13 @@
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
   color: var(--text-secondary);
+  transition: all 300ms ease;
+}
+
+.project-card:hover .tech-tag {
+  background: var(--bg-glass-hover);
+  color: var(--text-primary);
+  border-color: var(--border-medium);
 }
 
 /* Actions */
@@ -183,12 +196,13 @@
   font-size: 0.875rem;
   font-weight: 600;
   color: var(--accent-cyan);
-  transition: gap var(--duration-fast) ease, color var(--duration-fast) ease;
+  transition: all 300ms var(--ease-out-expo);
 }
 
 .btn-dive:hover {
   gap: var(--space-3);
-  color: #ffffff;
+  color: var(--text-primary);
+  text-shadow: 0 0 8px var(--accent-cyan-glow);
 }
 
 .project-external-links {
@@ -206,12 +220,18 @@
   border-radius: var(--radius-sm);
   background: var(--bg-glass);
   color: var(--text-secondary);
-  transition: all var(--duration-fast) ease;
+  transition: all 300ms var(--ease-out-expo);
 }
 
 .icon-link:hover {
   background: var(--bg-glass-hover);
   color: var(--text-primary);
+  transform: translateY(-2px) scale(1.05);
+  box-shadow: var(--shadow-sm);
+}
+
+.icon-link:active {
+  transform: scale(0.95);
 }
 
 @media (max-width: 900px) {

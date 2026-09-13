@@ -201,7 +201,8 @@ export const Projects: React.FC<ProjectsProps> = ({ onOpenProject, playClick }) 
           className="projects-grid"
           variants={staggerContainer}
           initial="hidden"
-          animate="visible"
+          whileInView="visible"
+          viewport={{ once: true, margin: '-50px' }}
           key={selectedCategory}
         >
           {filteredProjects.map((project) => (

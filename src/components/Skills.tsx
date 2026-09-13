@@ -94,9 +94,12 @@ export const Skills: React.FC<SkillsProps> = () => {
                       <span className="skill-exp">{skill.yearsOfExp}</span>
                     </div>
                     <div className="skill-bar-track">
-                      <div
+                      <motion.div
                         className="skill-bar-fill"
-                        style={{ width: `${skill.level}%` }}
+                        initial={{ width: 0 }}
+                        whileInView={{ width: `${skill.level}%` }}
+                        viewport={{ once: true }}
+                        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
                         role="progressbar"
                         aria-valuenow={skill.level}
                         aria-valuemin={0}

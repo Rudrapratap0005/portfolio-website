@@ -19,15 +19,15 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transition: transform var(--duration-normal) ease, border-color var(--duration-normal) ease, box-shadow var(--duration-normal) ease;
+  transition: transform 400ms var(--ease-out-expo), border-color 400ms ease, box-shadow 400ms ease;
   position: relative;
   overflow: hidden;
 }
 
 .certificate-card:hover {
   transform: translateY(-4px);
-  border-color: rgba(0, 240, 255, 0.35);
-  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6), 0 0 25px rgba(0, 240, 255, 0.12);
+  border-color: var(--border-neon-cyan);
+  box-shadow: var(--shadow-lg), var(--shadow-neon-cyan);
 }
 
 .certificate-header {
@@ -89,11 +89,11 @@
   height: 100%;
   object-fit: contain;
   background: #ffffff;
-  transition: transform var(--duration-fast) ease;
+  transition: transform 500ms var(--ease-out-expo);
 }
 
 .cert-image-preview:hover img {
-  transform: scale(1.05);
+  transform: scale(1.02);
 }
 
 .cert-preview-overlay {
@@ -104,7 +104,7 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  transition: opacity var(--duration-fast) ease;
+  transition: opacity 400ms ease;
   color: #ffffff;
   font-size: 0.8125rem;
   font-weight: 600;

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Terminal, Sparkles, MapPin, Clock, Download } from 'lucide-react';
 import { PERSONAL_INFO, HERO_STATS } from '../data/portfolioData';
-import { fadeInUp, staggerContainer } from '../utils/motion';
+import { fadeInUp, staggerContainer, fadeInScale } from '../utils/motion';
 import '../styles/Hero.css';
 
 interface HeroProps {
@@ -50,7 +50,7 @@ export const Hero: React.FC<HeroProps> = ({ playClick, onOpenResumeModal }) => {
           animate="visible"
         >
           {/* Profile Photo */}
-          <motion.div className="hero-avatar-container" variants={fadeInUp}>
+          <motion.div className="hero-avatar-container" variants={fadeInScale}>
             <div className="hero-avatar-wrapper">
               <img
                 src={PERSONAL_INFO.profileImage}

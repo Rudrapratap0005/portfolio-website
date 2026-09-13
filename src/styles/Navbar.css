@@ -46,7 +46,7 @@
   font-size: 1rem;
   color: var(--accent-cyan);
   box-shadow: var(--shadow-neon-cyan);
-  transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
+  transition: transform 400ms var(--ease-out-expo), box-shadow 400ms var(--ease-out-expo);
 }
 
 .navbar-brand:hover .brand-emblem {
@@ -108,8 +108,12 @@
   font-weight: 500;
   color: var(--text-secondary);
   border-radius: var(--radius-full);
-  transition: color var(--duration-fast) ease, background var(--duration-fast) ease;
+  transition: all 400ms var(--ease-out-expo);
   position: relative;
+}
+
+.nav-link:active {
+  transform: scale(0.95);
 }
 
 .nav-link:hover {
@@ -139,13 +143,19 @@
   border-radius: var(--radius-md);
   color: var(--text-secondary);
   font-size: 0.8125rem;
-  transition: all var(--duration-fast) ease;
+  transition: all 400ms var(--ease-out-expo);
 }
 
 .cmd-k-btn:hover {
   background: var(--bg-glass-hover);
   border-color: var(--border-medium);
   color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.cmd-k-btn:active {
+  transform: scale(0.95);
 }
 
 .kbd-badge {
@@ -168,12 +178,18 @@
   background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
-  transition: all var(--duration-fast) ease;
+  transition: all 400ms var(--ease-out-expo);
 }
 
 .icon-toggle-btn:hover {
   background: var(--bg-glass-hover);
   color: var(--text-primary);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-sm);
+}
+
+.icon-toggle-btn:active {
+  transform: scale(0.92);
 }
 
 .icon-toggle-btn.active {
