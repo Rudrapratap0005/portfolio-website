@@ -91,21 +91,17 @@ export const Skills: React.FC<SkillsProps> = () => {
                         {skill.highlight && <span className="skill-highlight-dot" title="Core Specialty" />}
                         <span>{skill.name}</span>
                       </span>
-                      <span className="skill-exp">{skill.yearsOfExp}</span>
-                    </div>
-                    <div className="skill-bar-track">
-                      <motion.div
-                        className="skill-bar-fill"
-                        initial={{ width: 0 }}
-                        whileInView={{ width: `${skill.level}%` }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 1, ease: [0.16, 1, 0.3, 1] }}
-                        role="progressbar"
-                        aria-valuenow={skill.level}
-                        aria-valuemin={0}
-                        aria-valuemax={100}
-                        aria-label={`${skill.name} proficiency level`}
-                      />
+                      <span className="skill-exp" style={{
+                        fontSize: '0.7rem',
+                        padding: '4px 8px',
+                        background: 'var(--bg-glass-card)',
+                        border: '1px solid var(--border-subtle)',
+                        borderRadius: '4px',
+                        fontWeight: 600,
+                        color: 'var(--text-secondary)',
+                      }}>
+                        {skill.proficiency}
+                      </span>
                     </div>
                   </div>
                 ))}

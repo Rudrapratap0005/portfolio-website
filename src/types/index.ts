@@ -33,8 +33,7 @@ export interface Project {
 
 export interface SkillItem {
   name: string;
-  level: number; // 1 - 100
-  yearsOfExp: string;
+  proficiency: 'PRIMARY' | 'STRONG' | 'WORKING KNOWLEDGE' | 'ACADEMIC' | 'FAMILIAR';
   highlight?: boolean;
 }
 

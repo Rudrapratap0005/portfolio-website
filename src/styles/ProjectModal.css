@@ -54,7 +54,7 @@
   justify-content: center;
   background: var(--bg-glass-card);
   color: var(--text-secondary);
-  transition: all var(--duration-fast) ease;
+  transition: color , background-color , border-color , transform , opacity , box-shadow ;
 }
 
 .modal-close-btn:hover {

@@ -61,7 +61,7 @@
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-xl);
   padding: var(--space-8);
-  transition: all var(--duration-normal) ease;
+  transition: color , background-color , border-color , transform , opacity , box-shadow ;
 }
 
 .timeline-card:hover {
