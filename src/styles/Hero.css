@@ -22,13 +22,13 @@
 /* Profile Photo */
 .hero-avatar-container {
   position: relative;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-5);
 }
 
 .hero-avatar-wrapper {
   position: relative;
-  width: 220px;
-  height: 220px;
+  width: 195px;
+  height: 195px;
   border-radius: var(--radius-xl);
   padding: 3px;
   background: var(--grad-primary);
@@ -75,7 +75,7 @@
   background: var(--accent-cyan-glow);
   border: 1px solid var(--border-neon-cyan);
   border-radius: var(--radius-full);
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-5);
   font-size: 0.8125rem;
   color: var(--accent-cyan);
   box-shadow: var(--shadow-neon-cyan);
@@ -98,11 +98,12 @@
 
 /* Main Title */
 .hero-title {
-  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  font-size: clamp(2rem, 5vw, 3.75rem);
   font-weight: 800;
   line-height: 1.1;
   letter-spacing: -0.03em;
-  margin-bottom: var(--space-6);
+  margin-bottom: var(--space-4);
+  max-width: 900px;
 }
 
 .hero-title-highlight {

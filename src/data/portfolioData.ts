@@ -2,16 +2,16 @@ import type { Project, SkillGroup, ExperienceItem, TestimonialItem, StatItem, Ce
 
 export const PERSONAL_INFO = {
   name: 'Rudra Pratap Shukla',
-  role: 'Full-Stack MERN & AI Developer | Systems Programmer',
+  role: 'Full-Stack MERN Developer | AI & Systems Enthusiast',
   shortRole: 'Full-Stack & Systems Developer',
   location: 'Phagwara, Punjab / Sultanpur, UP (UTC+5:30)',
   email: 'rudrapratapshukla555@gmail.com',
   phone: '+91-7307666426',
   profileImage: '/profile.jpg',
-  status: 'Open for Full-Stack, AI & Software Engineering Roles',
+  status: 'Open to Software Engineering Roles',
   availabilityColor: '#10b981',
   tagline: 'Crafting responsive MERN apps, low-level systems, and AI platforms.',
-  heroBio: 'Software Engineering student at LPU. I build scalable full-stack web applications and love diving deep into low-level systems, memory management, and AI integrations.',
+  heroBio: 'Software Engineering student at LPU focused on full-stack web development, AI integrations, and low-level systems. I enjoy building practical applications and exploring how software works under the hood.',
   socials: {
     github: 'https://github.com/Rudrapratap0005',
     linkedin: 'https://www.linkedin.com/in/rudra-pratap-shukla4556/',

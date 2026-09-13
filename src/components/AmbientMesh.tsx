@@ -182,7 +182,7 @@ export const AmbientMesh: React.FC<AmbientMeshProps> = ({ theme = 'dark' }) => {
         height: '100%',
         pointerEvents: 'none',
         zIndex: 0,
-        opacity: 0.85,
+        opacity: theme === 'light' ? 0.55 : 0.85,
       }}
       aria-hidden="true"
     />

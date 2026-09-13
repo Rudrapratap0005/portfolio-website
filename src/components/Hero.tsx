@@ -72,7 +72,7 @@ export const Hero: React.FC<HeroProps> = ({ playClick, onOpenResumeModal }) => {
           {/* Main Title */}
           <motion.h1 className="hero-title" variants={fadeInUp}>
             Hi, I&apos;m <span className="hero-title-highlight">{PERSONAL_INFO.name}</span> <br />
-            Full-Stack MERN & Systems Developer.
+            {PERSONAL_INFO.role}
           </motion.h1>
 
           {/* Tagline */}
