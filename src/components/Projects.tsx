@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, ExternalLink, Sparkles } from 'lucide-react';
 import { GithubIcon } from './SocialIcons';
@@ -18,41 +18,11 @@ const ProjectCard: React.FC<{
   onOpen: () => void;
   playClick: () => void;
 }> = ({ project, onOpen, playClick }) => {
-  const cardRef = useRef<HTMLDivElement | null>(null);
-  const [transformStyle, setTransformStyle] = useState<string>('');
-
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    const card = cardRef.current;
-    if (!card) return;
-
-    const rect = card.getBoundingClientRect();
-    const x = e.clientX - rect.left;
-    const y = e.clientY - rect.top;
-
-    const centerX = rect.width / 2;
-    const centerY = rect.height / 2;
-
-    const rotateX = ((y - centerY) / centerY) * -6;
-    const rotateY = ((x - centerX) / centerX) * 6;
-
-    setTransformStyle(`perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) scale3d(1.01, 1.01, 1.01)`);
-  };
-
-  const handleMouseLeave = () => {
-    setTransformStyle('perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1)');
-  };
-
   return (
-    <div
-      className="project-card"
-      ref={cardRef}
-      onMouseMove={handleMouseMove}
-      onMouseLeave={handleMouseLeave}
-    >
+    <div className="project-card">
       <div
         className="project-card-inner"
         style={{
-          transform: transformStyle,
           borderTopColor: project.accentColor,
         }}
       >
@@ -151,7 +121,6 @@ export const Projects: React.FC<ProjectsProps> = ({ onOpenProject, playClick }) 
   const categories: { id: ProjectCategory; label: string }[] = [
     { id: 'all', label: 'All Projects' },
     { id: 'fullstack-mern', label: 'MERN Stack' },
-    { id: 'systems-c', label: 'Systems & C/C++' },
     { id: 'ai-ml', label: 'AI & Agriculture' },
     { id: 'frontend-web', label: 'Frontend & UI' },
   ];

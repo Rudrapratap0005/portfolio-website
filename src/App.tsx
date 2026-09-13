@@ -6,7 +6,6 @@ import { Projects } from './components/Projects';
 import { ProjectModal } from './components/ProjectModal';
 import { Skills } from './components/Skills';
 import { Experience } from './components/Experience';
-import { Testimonials } from './components/Testimonials';
 import { Contact } from './components/Contact';
 import { Footer } from './components/Footer';
 import { CommandPalette } from './components/CommandPalette';
@@ -122,7 +121,6 @@ export const App: React.FC = () => {
         <Skills playClick={playClick} />
         <Certifications playClick={playClick} />
         <Experience />
-        <Testimonials />
         <Contact
           playClick={playClick}
           playSuccess={playSuccess}

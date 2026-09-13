@@ -22,13 +22,13 @@ export const PERSONAL_INFO = {
 export const HERO_STATS: StatItem[] = [
   {
     id: 'projects',
-    value: '4+',
+    value: '3',
     label: 'Engineered Systems',
     sublabel: 'Full-stack & low-level repos',
   },
   {
     id: 'certs',
-    value: '6+',
+    value: '5',
     label: 'Professional Certifications',
     sublabel: 'Oracle, MERN & AI verified',
   },
@@ -37,12 +37,6 @@ export const HERO_STATS: StatItem[] = [
     value: 'B.Tech',
     label: 'CSE @ LPU',
     sublabel: 'Lovely Professional University',
-  },
-  {
-    id: 'focus',
-    value: '100%',
-    label: 'Hands-on Execution',
-    sublabel: 'Clean code & full-stack design',
   },
 ];
 
@@ -139,10 +133,9 @@ export const PROJECTS: Project[] = [
         'Dedicated delivery integration page linking directly to food-ordering channels.',
       ],
       keyOutcomes: [
-        'Achieved fluid 60 FPS scrolling and responsive presentation across all mobile and desktop viewports.',
+        'Responsive interface across desktop and mobile devices.',
       ],
     },
-    liveUrl: 'https://github.com/Rudrapratap0005/Dine-Desi',
     githubUrl: 'https://github.com/Rudrapratap0005/Dine-Desi',
   },
 ];
@@ -285,7 +278,7 @@ export const EXPERIENCES: ExperienceItem[] = [
     period: '2024 — Present',
     location: 'India',
     type: 'Leadership',
-    summary: 'Directed operations and managed large student teams for flagship university festivals, ensuring flawless execution for thousands of attendees.',
+    summary: 'Directed operations and managed large student teams for flagship university festivals, ensuring flawless execution of large-scale events.',
     achievements: [
       'Directed event logistics and managed large student teams for flagship university festivals like AAVIRBHAV and Play 2 Unite.',
       'Handled on-stage crowd management and public speaking for major university events.',
@@ -352,32 +345,4 @@ export const EXPERIENCES: ExperienceItem[] = [
   },
 ];
 
-export const TESTIMONIALS: TestimonialItem[] = [
-  {
-    id: 'test-1',
-    name: 'Academic Peer Reviewer',
-    role: 'Project Reviewer & Mentor',
-    company: 'Lovely Professional University',
-    relationship: 'Course Faculty',
-    avatarText: 'LP',
-    text: 'Rudra exhibits genuine curiosity and execution capability across both ends of the stack—from high-level React/MERN architectures to low-level C memory allocation and OS concepts.',
-  },
-  {
-    id: 'test-2',
-    name: 'Matrix Operations Lead',
-    role: 'Operations Director',
-    company: 'Matrix Events & Marketing',
-    relationship: 'Internship Supervisor',
-    avatarText: 'ME',
-    text: 'During his internship, Rudra proved to be dependable, quick to adapt under pressure, and meticulous with team coordination and client logistics.',
-  },
-  {
-    id: 'test-3',
-    name: 'B.Tech Project Partner',
-    role: 'Full-Stack Collaborator',
-    company: 'Volunteer Connect Team',
-    relationship: 'Project Partner',
-    avatarText: 'VC',
-    text: 'Rudra handled both backend authentication and frontend component state flawlessly on Volunteer Connect, delivering a production-ready application ahead of schedule.',
-  },
-];
+export const TESTIMONIALS: TestimonialItem[] = [];

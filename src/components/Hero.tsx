@@ -102,7 +102,7 @@ export const Hero: React.FC<HeroProps> = ({ playClick, onOpenResumeModal }) => {
               className="btn btn-glow"
               onClick={() => handleScrollTo('projects')}
             >
-              <span>Explore Case Studies</span>
+              <span>View Projects</span>
               <ArrowRight size={18} />
             </button>
 
@@ -111,7 +111,7 @@ export const Hero: React.FC<HeroProps> = ({ playClick, onOpenResumeModal }) => {
               onClick={() => handleScrollTo('contact')}
             >
               <Sparkles size={16} />
-              <span>Initiate Contact</span>
+              <span>Contact Me</span>
             </button>
 
             <button
