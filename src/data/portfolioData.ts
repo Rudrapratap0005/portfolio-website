@@ -2,7 +2,7 @@ import type { Project, SkillGroup, ExperienceItem, TestimonialItem, StatItem, Ce
 
 export const PERSONAL_INFO = {
   name: 'Rudra Pratap Shukla',
-  role: 'Full-Stack MERN Developer | AI & Systems Enthusiast',
+  role: 'Software Developer | Full-Stack & AI Enthusiast',
   shortRole: 'Full-Stack & Systems Developer',
   location: 'Phagwara, Punjab / Sultanpur, UP (UTC+5:30)',
   email: 'rudrapratapshukla555@gmail.com',
