@@ -21,6 +21,21 @@ export const App: React.FC = () => {
   const [isCmdOpen, setIsCmdOpen] = useState(false);
   const [isResumeOpen, setIsResumeOpen] = useState(false);
 
+  const [theme, setTheme] = useState<'dark' | 'light'>(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark' || savedTheme === 'light') return savedTheme;
+    return window.matchMedia('(prefers-color-scheme: light)').matches ? 'light' : 'dark';
+  });
+
+  useEffect(() => {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+  }, [theme]);
+
+  const toggleTheme = () => {
+    setTheme(prev => (prev === 'dark' ? 'light' : 'dark'));
+  };
+
   const {
     soundEnabled,
     toggleSound,
@@ -82,7 +97,7 @@ export const App: React.FC = () => {
       </a>
 
       {/* Interactive Ambient Canvas Mesh */}
-      <AmbientMesh />
+      <AmbientMesh theme={theme} />
 
       {/* Sticky Navigation Bar */}
       <Navbar
@@ -90,6 +105,8 @@ export const App: React.FC = () => {
         soundEnabled={soundEnabled}
         toggleSound={toggleSound}
         playClick={playClick}
+        theme={theme}
+        toggleTheme={toggleTheme}
       />
 
       {/* Main Content Sections */}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Volume2, VolumeX, Menu, X, Sparkles } from 'lucide-react';
+import { Search, Volume2, VolumeX, Menu, X, Sparkles, Sun, Moon } from 'lucide-react';
 import { useScrollSpy } from '../hooks/useScrollSpy';
 import { PERSONAL_INFO } from '../data/portfolioData';
 import '../styles/Navbar.css';
@@ -9,6 +9,8 @@ interface NavbarProps {
   soundEnabled: boolean;
   toggleSound: () => void;
   playClick: () => void;
+  theme: 'dark' | 'light';
+  toggleTheme: () => void;
 }
 
 export const Navbar: React.FC<NavbarProps> = ({
@@ -16,6 +18,8 @@ export const Navbar: React.FC<NavbarProps> = ({
   soundEnabled,
   toggleSound,
   playClick,
+  theme,
+  toggleTheme,
 }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -133,6 +137,19 @@ export const Navbar: React.FC<NavbarProps> = ({
             <Search size={15} />
             <span>Search</span>
             <kbd className="kbd-badge">⌘K</kbd>
+          </button>
+
+          {/* Theme Toggle */}
+          <button
+            className="icon-toggle-btn"
+            onClick={() => {
+              toggleTheme();
+              playClick();
+            }}
+            title={theme === 'dark' ? 'Switch to Light Mode' : 'Switch to Dark Mode'}
+            aria-label="Toggle theme"
+          >
+            {theme === 'dark' ? <Sun size={18} /> : <Moon size={18} />}
           </button>
 
           {/* Sound Toggle */}

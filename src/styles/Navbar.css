@@ -36,8 +36,8 @@
   width: 38px;
   height: 38px;
   border-radius: var(--radius-md);
-  background: linear-gradient(135deg, rgba(0, 240, 255, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%);
-  border: 1px solid rgba(0, 240, 255, 0.4);
+  background: var(--grad-glow);
+  border: 1px solid var(--border-neon-cyan);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -45,13 +45,13 @@
   font-weight: 800;
   font-size: 1rem;
   color: var(--accent-cyan);
-  box-shadow: 0 0 12px rgba(0, 240, 255, 0.2);
+  box-shadow: var(--shadow-neon-cyan);
   transition: transform var(--duration-fast) ease, box-shadow var(--duration-fast) ease;
 }
 
 .navbar-brand:hover .brand-emblem {
   transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(0, 240, 255, 0.4);
+  box-shadow: 0 0 20px var(--border-neon-cyan);
 }
 
 .brand-info {
@@ -95,7 +95,7 @@
   align-items: center;
   gap: var(--space-1);
   list-style: none;
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-glass-card);
   padding: 4px 6px;
   border-radius: var(--radius-full);
   border: 1px solid var(--border-subtle);
@@ -117,8 +117,8 @@
 }
 
 .nav-link.active {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-primary);
+  background: var(--bg-glass-hover);
   font-weight: 600;
 }
 
@@ -133,7 +133,7 @@
   display: flex;
   align-items: center;
   gap: var(--space-2);
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   padding: 6px 12px;
   border-radius: var(--radius-md);
@@ -143,7 +143,7 @@
 }
 
 .cmd-k-btn:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-glass-hover);
   border-color: var(--border-medium);
   color: var(--text-primary);
 }
@@ -152,7 +152,7 @@
   font-family: var(--font-mono);
   font-size: 0.7rem;
   padding: 2px 6px;
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   border-radius: 4px;
   color: var(--text-muted);
@@ -165,20 +165,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.04);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
   transition: all var(--duration-fast) ease;
 }
 
 .icon-toggle-btn:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-glass-hover);
   color: var(--text-primary);
 }
 
 .icon-toggle-btn.active {
   color: var(--accent-cyan);
-  border-color: rgba(0, 240, 255, 0.3);
+  border-color: var(--border-neon-cyan);
 }
 
 .mobile-menu-toggle {
@@ -252,5 +252,5 @@
 
 .mobile-nav-link:hover, .mobile-nav-link.active {
   color: var(--accent-cyan);
-  background: rgba(0, 240, 255, 0.08);
+  background: var(--accent-cyan-glow);
 }

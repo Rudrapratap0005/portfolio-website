@@ -11,7 +11,11 @@ interface Particle {
   color: string;
 }
 
-export const AmbientMesh: React.FC = () => {
+interface AmbientMeshProps {
+  theme?: 'dark' | 'light';
+}
+
+export const AmbientMesh: React.FC<AmbientMeshProps> = ({ theme = 'dark' }) => {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
   const prefersReduced = useReducedMotion();
 
@@ -48,7 +52,9 @@ export const AmbientMesh: React.FC = () => {
       initParticles();
     };
 
-    const colors = ['#00f0ff', '#a855f7', '#3b82f6'];
+    const colors = theme === 'light' 
+      ? ['#0284c7', '#7e22ce', '#059669'] 
+      : ['#00f0ff', '#a855f7', '#3b82f6'];
     let particles: Particle[] = [];
 
     const initParticles = () => {
@@ -119,7 +125,7 @@ export const AmbientMesh: React.FC = () => {
             ctx.beginPath();
             ctx.moveTo(p1.x, p1.y);
             ctx.lineTo(p2.x, p2.y);
-            ctx.strokeStyle = '#00f0ff';
+            ctx.strokeStyle = theme === 'light' ? '#0284c7' : '#00f0ff';
             ctx.globalAlpha = alpha;
             ctx.lineWidth = 0.75;
             ctx.stroke();
@@ -137,8 +143,13 @@ export const AmbientMesh: React.FC = () => {
           mouse.y,
           mouse.radius * 1.8
         );
-        radGrad.addColorStop(0, 'rgba(0, 240, 255, 0.05)');
-        radGrad.addColorStop(0.5, 'rgba(168, 85, 247, 0.02)');
+        if (theme === 'light') {
+          radGrad.addColorStop(0, 'rgba(2, 132, 199, 0.05)');
+          radGrad.addColorStop(0.5, 'rgba(126, 34, 206, 0.02)');
+        } else {
+          radGrad.addColorStop(0, 'rgba(0, 240, 255, 0.05)');
+          radGrad.addColorStop(0.5, 'rgba(168, 85, 247, 0.02)');
+        }
         radGrad.addColorStop(1, 'transparent');
         ctx.globalAlpha = 1;
         ctx.fillStyle = radGrad;
@@ -156,7 +167,7 @@ export const AmbientMesh: React.FC = () => {
       window.removeEventListener('mousemove', handleMouseMove);
       document.removeEventListener('mouseleave', handleMouseLeave);
     };
-  }, [prefersReduced]);
+  }, [prefersReduced, theme]);
 
   if (prefersReduced) return null;
 

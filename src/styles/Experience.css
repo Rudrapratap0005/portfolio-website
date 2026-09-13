@@ -105,7 +105,7 @@
 .timeline-period-badge {
   padding: 4px 10px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
 }

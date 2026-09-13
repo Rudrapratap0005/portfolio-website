@@ -31,7 +31,7 @@
   justify-content: space-between;
   padding: var(--space-6) var(--space-8);
   border-bottom: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--bg-glass);
 }
 
 .modal-title-group h2 {
@@ -52,13 +52,13 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
   color: var(--text-secondary);
   transition: all var(--duration-fast) ease;
 }
 
 .modal-close-btn:hover {
-  background: rgba(255, 255, 255, 0.12);
+  background: var(--bg-glass-hover);
   color: var(--text-primary);
 }
 
@@ -99,7 +99,7 @@
 }
 
 .schematic-node {
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-medium);
   border-radius: var(--radius-md);
   padding: var(--space-3) var(--space-4);
@@ -122,7 +122,7 @@
 }
 
 .detail-box {
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--bg-glass);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: var(--space-5);
@@ -199,7 +199,7 @@
 .modal-footer {
   padding: var(--space-5) var(--space-8);
   border-top: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--bg-glass);
   display: flex;
   align-items: center;
   justify-content: space-between;

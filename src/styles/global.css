@@ -141,7 +141,7 @@ img, svg {
   font-size: 0.8125rem;
   font-weight: 500;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
 }
@@ -189,7 +189,7 @@ img, svg {
 .btn-primary {
   background: var(--text-primary);
   color: var(--bg-primary);
-  box-shadow: 0 4px 14px rgba(255, 255, 255, 0.15);
+  box-shadow: var(--shadow-md);
 }
 
 .btn-primary:hover {
@@ -211,14 +211,14 @@ img, svg {
 }
 
 .btn-outline {
-  background: rgba(255, 255, 255, 0.03);
+  background: var(--bg-glass);
   color: var(--text-primary);
   border: 1px solid var(--border-medium);
   backdrop-filter: blur(8px);
 }
 
 .btn-outline:hover {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--bg-glass-card);
   border-color: var(--text-primary);
   transform: translateY(-2px);
 }
@@ -229,7 +229,7 @@ img, svg {
 
 .btn-ghost:hover {
   color: var(--text-primary);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
 }
 
 /* Section Header standard */

@@ -46,7 +46,7 @@
   font-size: 0.72rem;
   padding: 3px 9px;
   border-radius: var(--radius-full);
-  background: rgba(255, 255, 255, 0.05);
+  background: var(--bg-glass-card);
   border: 1px solid var(--border-subtle);
   color: var(--text-secondary);
 }
@@ -157,7 +157,7 @@
   justify-content: space-between;
   padding: var(--space-4) var(--space-6);
   border-bottom: 1px solid var(--border-subtle);
-  background: rgba(255, 255, 255, 0.02);
+  background: var(--bg-glass);
 }
 
 .cert-modal-body {
