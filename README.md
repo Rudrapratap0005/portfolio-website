@@ -1,109 +1,232 @@
-# 🚀 Premium Developer Portfolio
+# 🚀 Rudra Pratap Shukla — Developer Portfolio
 
-A modern, responsive, and interactive developer portfolio built to showcase my **projects, technical skills, experience, certifications, and professional profile**.
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=700&lines=Full+Stack+Developer;AI+%26+ML+Enthusiast;React+%7C+TypeScript+%7C+Node.js;Building+Modern+Web+Experiences" alt="Typing Animation" />
+</p>
 
-🌐 **Live Portfolio:**
-https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/
+<p align="center">
+  <a href="https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/">
+    <img src="https://img.shields.io/badge/🌐_LIVE_PORTFOLIO-Visit_Now-00C7B7?style=for-the-badge" alt="Live Portfolio"/>
+  </a>
+  <a href="https://github.com/Rudrapratap0005/portfolio-website">
+    <img src="https://img.shields.io/badge/💻_SOURCE_CODE-GitHub-181717?style=for-the-badge&logo=github" alt="GitHub"/>
+  </a>
+</p>
 
-💻 **Source Code:**
-https://github.com/Rudrapratap0005/portfolio-website
+<p align="center">
+  <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=flat-square&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vite-8-646CFF?style=flat-square&logo=vite&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Framer_Motion-Animation-FF0055?style=flat-square"/>
+  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=flat-square&logo=vercel"/>
+</p>
 
 ---
 
-## ✨ Highlights
+## ✨ About The Portfolio
 
-* 🎨 Modern dark-themed developer portfolio
-* 📱 Fully responsive across desktop, tablet, and mobile
-* ⚡ Fast development and production builds with Vite
-* 🪄 Smooth animations and micro-interactions
-* 🧩 Modular React component architecture
-* 📂 Project showcase with technology details
-* 📄 Resume integration
-* 📬 Recruiter-friendly contact section
-* 🎯 Professional sections for skills, experience, projects, and achievements
-* 🌐 Deployed and accessible through Vercel
+A modern, responsive, and interactive developer portfolio created to present my **projects, technical skills, experience, certifications, resume, and professional journey** through a clean and engaging interface.
+
+The portfolio combines a **modern UI, responsive design, smooth animations, interactive components, and focused developer branding** to create an engaging experience for recruiters, developers, and collaborators.
+
+> 💡 **Goal:** Turn a traditional portfolio into an interactive developer experience.
+
+---
+
+## 🌐 Explore
+
+<table align="center">
+<tr>
+<td align="center" width="33%">
+
+### 🌐 Live Website
+
+[**Open Portfolio →**](https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/)
+
+</td>
+
+<td align="center" width="33%">
+
+### 💻 GitHub
+
+[**View Source →**](https://github.com/Rudrapratap0005/portfolio-website)
+
+</td>
+
+<td align="center" width="33%">
+
+### 🔗 LinkedIn
+
+[**Connect →**](https://www.linkedin.com/in/rudra-pratap-shukla4556/)
+
+</td>
+</tr>
+</table>
+
+---
+
+## ⚡ Why This Portfolio Stands Out
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎨 Modern UI
+
+Clean visual design with interactive sections and polished components.
+
+### ✨ Motion & Interaction
+
+Smooth transitions, animated elements, and micro-interactions create a dynamic experience.
+
+### 📱 Responsive
+
+Designed to provide a consistent experience across desktop, tablet, and mobile devices.
+
+</td>
+
+<td width="50%">
+
+### 🧩 Component Based
+
+Reusable React components keep the application organized and maintainable.
+
+### ⚡ Vite Powered
+
+Fast development workflow and optimized production builds.
+
+### 🚀 Production Ready
+
+Deployed on Vercel and accessible through a live production URL.
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🎯 Portfolio Sections
+
+```text
+┌───────────────────────────────────────────────┐
+│                 HERO / INTRO                 │
+├───────────────────────────────────────────────┤
+│                    ABOUT                     │
+├───────────────────────────────────────────────┤
+│                   SKILLS                     │
+├───────────────────────────────────────────────┤
+│                 EXPERIENCE                   │
+├───────────────────────────────────────────────┤
+│                  PROJECTS                    │
+├───────────────────────────────────────────────┤
+│               CERTIFICATIONS                 │
+├───────────────────────────────────────────────┤
+│                   RESUME                     │
+├───────────────────────────────────────────────┤
+│                  CONTACT                     │
+└───────────────────────────────────────────────┘
+```
+
+---
+
+## 🪄 Interactive Experience
+
+The portfolio focuses on creating an engaging browsing experience through:
+
+* ✨ Smooth UI transitions
+* 🖱️ Interactive hover effects
+* 🎬 Motion-based component transitions
+* 📜 Scroll-based visual interactions
+* 🎯 Interactive project presentation
+* 📱 Responsive navigation
+* 🧩 Reusable UI components
+* 🎨 Modern visual styling
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Category        | Technologies     |
-| --------------- | ---------------- |
-| Frontend        | React.js 19      |
-| Build Tool      | Vite 8           |
-| Language        | TypeScript       |
-| Styling         | CSS3, Custom CSS |
-| Animations      | Framer Motion    |
-| Icons           | Lucide React     |
-| UI Effects      | Canvas Confetti  |
-| PDF Processing  | pdf-parse        |
-| Code Quality    | Oxlint           |
-| Deployment      | Vercel           |
-| Version Control | Git, GitHub      |
+### Frontend
+
+<p>
+<img src="https://img.shields.io/badge/React-19-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white"/>
+</p>
+
+### UI & Animation
+
+<p>
+<img src="https://img.shields.io/badge/Framer_Motion-FF0055?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
+<img src="https://img.shields.io/badge/Lucide_React-F56565?style=for-the-badge"/>
+</p>
+
+### Development & Deployment
+
+<p>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white"/>
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+</p>
 
 ---
 
-## 🧩 Core Features
+## 🏗️ Architecture
 
-### 👨‍💻 Developer Profile
-
-Professional introduction highlighting my background, interests, technical skills, and career goals.
-
-### 💼 Project Showcase
-
-Dedicated project presentation with project descriptions, technologies used, GitHub repositories, and live demonstrations.
-
-### 🛠️ Technical Skills
-
-Organized representation of programming languages, frameworks, development tools, and technical capabilities.
-
-### 📄 Resume
-
-Quick access to my professional resume for recruiters and hiring teams.
-
-### 🎨 Interactive UI
-
-Smooth transitions, animations, hover interactions, and modern visual elements powered by React and Framer Motion.
-
-### 📱 Responsive Design
-
-Optimized layout and components for different screen sizes and devices.
-
-### 📬 Contact
-
-A dedicated section for professional communication and opportunities.
+```text
+                         ┌──────────────────┐
+                         │      USER        │
+                         └────────┬─────────┘
+                                  │
+                                  ▼
+                     ┌────────────────────────┐
+                     │   React Application    │
+                     └───────────┬────────────┘
+                                 │
+              ┌──────────────────┼──────────────────┐
+              ▼                  ▼                  ▼
+       ┌─────────────┐   ┌─────────────┐   ┌─────────────┐
+       │ UI Components│   │ Animations  │   │ Portfolio   │
+       │             │   │             │   │    Data     │
+       └─────────────┘   └─────────────┘   └─────────────┘
+              │                  │                  │
+              └──────────────────┼──────────────────┘
+                                 ▼
+                       ┌──────────────────┐
+                       │   Vite Build     │
+                       └────────┬─────────┘
+                                │
+                                ▼
+                       ┌──────────────────┐
+                       │     Vercel       │
+                       └────────┬─────────┘
+                                │
+                                ▼
+                       🌐 LIVE PORTFOLIO
+```
 
 ---
 
-## 🏗️ Project Architecture
+## 📁 Project Structure
 
 ```text
 portfolio-website/
 │
 ├── public/
-│   └── Static assets and public resources
 │
 ├── src/
 │   ├── components/
-│   │   └── Reusable React components
-│   │
 │   ├── data/
-│   │   └── Portfolio content and data
-│   │
 │   ├── styles/
-│   │   └── Global and component styles
-│   │
 │   ├── types/
-│   │   └── TypeScript type definitions
-│   │
 │   ├── utils/
-│   │   └── Utility functions and animation configurations
-│   │
 │   ├── App.tsx
 │   └── main.tsx
 │
 ├── index.html
 ├── package.json
+├── package-lock.json
 ├── tsconfig.json
 ├── vite.config.ts
 └── README.md
@@ -111,62 +234,27 @@ portfolio-website/
 
 ---
 
-## 🔄 Application Flow
+## ⚙️ Run Locally
 
-```text
-User
-  │
-  ▼
-Portfolio Website
-  │
-  ├── Hero
-  ├── About
-  ├── Skills
-  ├── Experience
-  ├── Projects
-  ├── Certifications
-  ├── Resume
-  └── Contact
-        │
-        ▼
-Interactive React Components
-        │
-        ▼
-Animations & UI Effects
-        │
-        ▼
-Vite Production Build
-        │
-        ▼
-Vercel Deployment
-```
-
----
-
-## ⚡ Getting Started
-
-### Prerequisites
-
-Make sure you have installed:
-
-* Node.js
-* npm
-* Git
-
-### Clone Repository
+### 1. Clone
 
 ```bash
 git clone https://github.com/Rudrapratap0005/portfolio-website.git
+```
+
+### 2. Enter Directory
+
+```bash
 cd portfolio-website
 ```
 
-### Install Dependencies
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### Start Development Server
+### 4. Start Development Server
 
 ```bash
 npm run dev
@@ -182,13 +270,11 @@ http://localhost:5173
 
 ## 📦 Production Build
 
-Create an optimized production build:
-
 ```bash
 npm run build
 ```
 
-Preview the production build locally:
+Preview the production build:
 
 ```bash
 npm run preview
@@ -198,88 +284,111 @@ npm run preview
 
 ## 🚀 Deployment
 
-The portfolio is deployed using **Vercel**.
+The portfolio is deployed on **Vercel**.
 
-### Live Website
+<p align="center">
+  <a href="https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/">
+    <img src="https://img.shields.io/badge/🚀_OPEN_LIVE_PORTFOLIO-Click_Here-00C7B7?style=for-the-badge" />
+  </a>
+</p>
 
-🔗 **https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/**
+### Production URL
 
-### Deployment Workflow
+**https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/**
+
+### Deployment Flow
 
 ```text
-GitHub Repository
-       │
-       ▼
-     Vercel
-       │
-       ▼
-Production Build
-       │
-       ▼
-Live Portfolio
+GitHub
+   │
+   ▼
+Vercel
+   │
+   ▼
+Build
+   │
+   ▼
+Production
+   │
+   ▼
+🌐 Live Portfolio
 ```
 
 ---
 
-## 🎯 Purpose
+## 🔮 Future Enhancements
 
-This portfolio is designed to provide recruiters, hiring managers, and collaborators with a quick overview of my:
-
-* Technical skills
-* Software development projects
-* Experience
-* Certifications
-* Achievements
-* Resume
-* Professional contact information
-
----
-
-## 🔮 Future Improvements
-
-* 🔐 Backend-powered contact system
-* 📊 Portfolio analytics
+* 🤖 AI-powered portfolio assistant
+* 🌐 Custom domain
+* 📊 Portfolio analytics dashboard
 * 📝 Developer blog
-* 🌙 Advanced theme customization
-* 🌍 Multi-language support
 * 🧪 Automated testing
-* ⚙️ CI/CD workflow improvements
-* ♿ Further accessibility improvements
+* ⚙️ CI/CD improvements
+* ♿ Enhanced accessibility
+* 🌍 Multi-language support
 
 ---
 
-## 🔗 Project Links
+## 📈 Development Focus
 
-| Resource             | Link                                                       |
-| -------------------- | ---------------------------------------------------------- |
-| 🌐 Live Portfolio    | https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/ |
-| 💻 GitHub Repository | https://github.com/Rudrapratap0005/portfolio-website       |
-| 🔗 LinkedIn          | https://www.linkedin.com/in/rudra-pratap-shukla4556/       |
+```text
+Frontend Development
+        │
+        ├── React
+        ├── TypeScript
+        ├── UI/UX
+        └── Animations
+                │
+                ▼
+       Full Stack Development
+                │
+                ├── Node.js
+                ├── Express.js
+                ├── MongoDB
+                └── REST APIs
+                │
+                ▼
+          AI / ML Exploration
+```
+
+---
+
+## 🔗 Connect With Me
+
+<p align="center">
+
+<a href="https://www.linkedin.com/in/rudra-pratap-shukla4556/">
+<img src="https://img.shields.io/badge/LinkedIn-Rudra%20Pratap%20Shukla-0A66C2?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://github.com/Rudrapratap0005">
+<img src="https://img.shields.io/badge/GitHub-Rudrapratap0005-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://portfolio-website-ten-khaki-f2ua9sdk4g.vercel.app/">
+<img src="https://img.shields.io/badge/Portfolio-Live-00C7B7?style=for-the-badge&logo=vercel"/>
+</a>
+
+</p>
 
 ---
 
 ## 👨‍💻 Author
 
-### Rudra Pratap Shukla
+**Rudra Pratap Shukla**
 
 **B.Tech CSE Student | Full Stack Developer | AI & ML Enthusiast**
 
-Interested in building modern web applications, solving software engineering problems, and exploring AI-powered solutions.
-
-🔗 **LinkedIn:**
-https://www.linkedin.com/in/rudra-pratap-shukla4556/
-
-🔗 **GitHub:**
-https://github.com/Rudrapratap0005
-
----
-
-## ⭐ Support
-
-If you find this portfolio useful or interesting, consider giving the repository a ⭐.
+Building modern web applications and exploring AI-powered solutions.
 
 ---
 
 <p align="center">
-  Built with React, TypeScript, Vite & Framer Motion
+
+### ⭐ If you like the portfolio, consider starring the repository!
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=00C7B7&height=100&section=footer"/>
+
 </p>
